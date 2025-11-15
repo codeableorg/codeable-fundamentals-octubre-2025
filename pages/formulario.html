@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: hsl(240 6% 10%);
+        color: hsl(240 6% 90%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .log-in-page {
+        height: fit-content;
+      }
+
+      p {
+        margin-bottom: 16px;
+        font-size: 12px;
+      }
+
+      .form-input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+      }
+
+      form {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="log-in-page">
+      <h1>{Codeable}</h1>
+      <p>Sign in to your account</p>
+
+      <form>
+        <!-- <div class="form-input">
+          <label for="first-name">First Name</label>
+          <input
+            id="first-name"
+            type="text"
+            placeholder="John"
+            title="Please fill out this field."
+            autocomplete="name"
+            name="nombre"
+          />
+        </div>
+        <div class="form-input">
+          <label for="email">Email address</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="example@mail.com"
+            title="Please fill out this field."
+            required
+            autocomplete="email"
+            name="correo"
+          />
+        </div>
+        <div class="form-input">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="******"
+            title="Please fill out this field."
+            required
+            name="clave"
+          />
+        </div>
+        <div class="form-input">
+          <label for="birthday">Birthday</label>
+          <input
+            id="birthday"
+            type="date"
+            value="2020-12-12"
+            title="Please fill out this field."
+            name="fecha-nacimiento"
+          />
+        </div>
+        <div class="form-input">
+          <label for="linkedin-url">LinkedIn Profile</label>
+          <input
+            id="linkedin-url"
+            type="url"
+            title="Please fill out this field."
+            name="linkedin-url"
+          />
+        </div> 
+        <div class="form-input">
+          <label for="search">Search</label>
+          <input
+            id="search"
+            type="search"
+            title="Please fill out this field."
+            name="search"
+          />
+        </div>-->
+
+        <!-- <fieldset>
+          <legend>¿Qué sistema operativo usas?</legend>
+
+          <input id="windows" type="radio" name="os" value="windows" />
+          <label for="windows">Windows</label>
+          <input id="macos" type="radio" name="os" value="macos" />
+          <label for="macos">MacOS</label>
+          <input id="linux" type="radio" name="os" value="linux" />
+          <label for="linux">Linux</label>
+          <input id="other" type="radio" name="os" value="other" />
+          <label for="other">Otro</label>
+        </fieldset> -->
+
+        <!-- <input
+          id="terms"
+          type="checkbox"
+          name="acepta-terminos"
+          value="si"
+          checked
+        />
+        <label for="terms">Acepta los terminos y condiciones?</label> -->
+
+        <!-- <fieldset>
+          <legend>¿Qué tecnologías dominas?</legend>
+          <label><input type="checkbox" name="html" value="si" />HTML</label>
+          <label><input type="checkbox" name="css" value="si" />CSS</label>
+          <label
+            ><input type="checkbox" name="js" value="si" />JavaScript</label
+          >
+          <label><input type="checkbox" name="node" value="si" />Node.js</label>
+          <label
+            ><input type="checkbox" name="express" value="si" />Express</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              name="postgresql"
+              value="si"
+            />PostgreSQL</label
+          >
+          <label><input type="checkbox" name="react" value="si" />React</label>
+          <label
+            ><input type="checkbox" name="tw" value="si" />Tailwind CSS</label
+          >
+        </fieldset> -->
+
+        <!-- <label for="country">Pais de nacimiento:</label>
+        <select id="country" name="country">
+          <optgroup label="Sudamerica">
+            <option value="">Selecciona un país</option>
+            <option value="AR">Argentina</option>
+            <option value="BO">Bolivia</option>
+            <option value="BR">Brasil</option>
+            <option value="PE">Perú</option>
+          </optgroup>
+          <optgroup label="Centroamerica">
+            <option value="SV">El Salvador</option>
+            <option value="GT">Guatemala</option>
+            <option value="HN">Honduras</option>
+            <option value="MX">México</option>
+            <option value="NI">Nicaragua</option>
+            <option value="PA">Panamá</option>
+          </optgroup>
+        </select> -->
+
+        <label for="comentario">Déjanos un comentario</label><br />
+        <textarea id="comentario" name="comentario"></textarea>
+
+        <br />
+        <br />
+        <button>Sign in</button>
+      </form>
+
+      <!-- 
+      <form action="http://google.com/search" method="get" target="_blank">
+        <input type="text" name="q" />
+        <button>Buscar en Google</button>
+      </form> 
+      -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+/* Mobile First */
+:root {
+  /* Custom Properties */
+  /* --mi-propiedad: 3em;
+        --alto: 24px;
+        --verde: #00ff00;
+        --asd: "Arial"; */
+
+  --spacing-4: calc(0.25rem * 4); /* 16px */
+  --spacing-6: calc(0.25rem * 6); /* 24px */
+  --spacing-8: calc(0.25rem * 8); /* 32px */
+  --width-7xl: 80rem; /* 1280px */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body .container {
+  background-color: violet;
+}
+
+.container {
+  padding-inline: var(--spacing-4); /* 16px */
+}
+
+.content {
+  background-color: tomato;
+  color: white;
+}
+
+/* Pantalla Mediana */
+@media (max-width: 720px) and (min-width: 300px) {
+  body .container {
+    background-color: #6495ed;
+  }
+
+  .container {
+    padding-inline: var(--spacing-6); /* 24px */
+  }
+}
+
+/* Pantalla Grande */
+@media (min-width: 720px) {
+  body .container {
+    background-color: #c6ce92;
+  }
+
+  .container {
+    padding-inline: var(--spacing-8); /* 32px */
+    max-width: var(--width-7xl);
+  }
+}

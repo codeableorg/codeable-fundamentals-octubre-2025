@@ -1,0 +1,61 @@
+/* @font-face {
+  font-family: "André";
+  src: url("/fonts/mi-fuente.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* header {
+  font-weight: 400;
+} */
+
+h1 {
+  /* font-family: serif; */
+  /* font-family: sans-serif; */
+  /* font-family: monospace; */
+  font-family: "Helvetica Neue";
+  font-size: 2rem; /* 1rem = 16px */
+  font-weight: 100;
+  font-style: italic;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em; /* 1em = font-size de este elemento */
+  word-spacing: 0.3em;
+}
+
+#bienvenidos {
+  border: 1px solid red;
+  width: 200px;
+  height: 50px;
+  text-indent: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+li {
+  font-family: Roboto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* .mayusculas {
+  text-transform: lowercase;
+} */
+
+/* .roboto-<uniquifier> { */
+/* .roboto-800 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.roboto-400 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+} */

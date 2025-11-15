@@ -1,0 +1,343 @@
+/* :root {
+  font-size: 24px;
+} */
+
+/* body {
+  margin-top: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+/* #contact-list {
+  list-style-type: none;
+  padding-left: 0px;
+} */
+
+/* Selectores de atributo: */
+
+/* [scope="col"] { */
+/* color: green; */
+/* } */
+
+/* [id] { */
+/* border: 1px solid red; */
+/* } */
+
+/* atributo*="ejemplo": el valor contiene la palabra "ejemplo" */
+/* [href*="soporte"] { */
+/* color: green; */
+/* } */
+
+/* atributo^="ejemplo": el valor empieza con la palabra "ejemplo" */
+
+/* [href^="mailto:"] { */
+/* color: orange; */
+/* } */
+
+/* atributo$="ejemplo": el valor termina con la palabra "ejemplo" */
+
+/* [href$=".com"] { */
+/* color: yellow; */
+/* } */
+
+/* Agrupar selectores */
+
+/* h2,
+p,
+li {
+  font-family: Arial;
+} */
+
+/* Pseudo Clases */
+
+/* p:hover { */
+/* background-color: greenyellow; */
+/* font-size: 32px; */
+/* } */
+
+/* h2:active {
+  color: aqua;
+  background-color: gray;
+}
+
+a:focus,
+button:focus {
+  color: aqua;
+}
+
+a:visited {
+  color: crimson;
+}
+
+a:link {
+  color: cornflowerblue;
+}
+
+li:first-child {
+  border: 1px solid blue;
+}
+
+li:last-child {
+  border: 1px solid red;
+} */
+
+/* section:nth-child(3) {
+  background-color: gray;
+} */
+
+/* section:nth-last-child(6) {
+  background-color: green;
+} */
+
+/* section:first-child {
+  background-color: red;
+  } */
+
+/* section:not(section:first-child) {
+  background-color: red;
+} */
+
+/* section:not(section:nth-child(1)) {
+  background-color: blue;
+} */
+
+/* .about-us {
+  border: 2px solid blue;
+} */
+
+/* .about-us::before {
+  content: "hola";
+} */
+
+/* .texto-oscuro::before {
+  content: "🔗";
+} */
+
+/* .texto-oscuro::after {
+  content: "X";
+} */
+
+/* ::before {
+  content: "--->";
+} */
+
+/* li::marker {
+  content: "👻";
+} */
+
+/* h2::first-letter {
+  text-transform: uppercase;
+} */
+
+/* p::first-line {
+  background-color: cadetblue;
+} */
+
+/* ::selection {
+  background-color: yellow;
+} */
+
+/*
+universal
+tipo 
+clase 
+id 
+atributo 
+pseudo clase 
+pseudo elemento 
+*/
+
+/* agrupacion de selectores (,) */
+
+/* componer selectores */
+/* h2.big {
+} */
+
+/* combinacion de selectores */
+
+/*
+
+h2 .big
+h2 > .big
+h2 ~ .big
+h2 + .big
+
+*/
+
+/* #lista-condiciones strong {
+  color: red;
+} */
+
+/* ol:not(ol[id]) strong {
+  color: red;
+} */
+
+/* ol > li,
+ul > li {
+} */
+
+/* Cascada:  */
+/* 1. La misma propiedad se puede aplicar multiples veces a un mismo elemento */
+/* 2. La ultima propiedad a nivel de lineas de codigo es la que finalmenta gana y se aplica al elemento */
+
+/* h1 {
+  color: red;
+}
+
+h1 {
+  color: blue;
+} */
+
+/* Especificidad */
+/* 1. Los selectores mas especificos le ganaran a los menos especificos  */
+
+/* #top-element {
+  color: green;
+} */
+
+/* [id="top-element"] {
+  color: green;
+}
+
+.texto-azul {
+  color: blue;
+} */
+
+/* * {
+  color: purple;
+} */
+
+/* h1::first-line {
+  color: blue;
+} */
+
+/* Ranking:
+1. !important
+2. atributo style/estilos en linea
+3. id 
+4. clase, pesudo-clase, atributo
+5. tipo, pseudo-elemento 
+6. universal
+*/
+
+/* a:hover,
+button:hover {
+  cursor: grab;
+  color: red;
+}
+
+h2 {
+  visibility: hidden;
+  display: none;
+} */
+
+/* body {
+  cursor: grab;
+} */
+
+/* 
+div {
+  color: red;
+}
+
+span {
+  color: green;
+} */
+
+/* section {
+  margin: 30px;
+}
+
+div {
+  margin: 20px;
+} */
+
+/* p {
+  margin: initial;
+} */
+
+/* h1 {
+  margin-bottom: 16px;
+}
+
+p {
+  margin-top: 10px;
+} */
+
+/* body {
+  margin-top: 0;
+}
+
+h1 {
+  margin-top: 0;
+} */
+
+h1 {
+  /* box-sizing: border-box; */
+  /* border: 1px solid black; */
+  /* text-align: center; */
+  /* padding: 0 4px; */
+  /* width: 360px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* margin: 20px auto 0; */
+  /* margin: 10px 5px 15px; */
+  /* margin-bottom: 0; */
+  /* margin-top: 0; */
+  /* margin-left: 10px; */
+  /* margin-right: 12px; */
+
+  /* border-radius: 24px;
+
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px; */
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: blue; */
+  /* border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: blue;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: skyblue; */
+  /* border-radius: 8px; */
+
+  /* min-width: 370px; */
+  /* max-width: 540px; */
+  /* height: 100px; */
+
+  /* width: fit-content; */
+}
+
+h1 {
+  /* font-weight: 400; */
+  /* text-align: center; */
+}
+
+header {
+  /* border: 1px solid green; */
+  /* height: 200px; */
+}
+
+p {
+  /* box-sizing: ; */
+  /* height: ; */
+  /* line-height: 1.5;
+  height: 25%;
+  font-size: 1.5rem; */
+  /* width: 20ch; */
+}
+
+/* root, raiz */
+
+/* font-size x line-height */
+/* 16px x 1.5 = 24px  */

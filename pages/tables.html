@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        width: 100%;
+      }
+      thead *,
+      tbody *,
+      tfoot * {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tablas HTML</h1>
+
+    <table>
+      <caption>
+        Directorio de estudiantes
+      </caption>
+
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Edad</th>
+          <th scope="col">Profesión</th>
+          <th scope="col">Correo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Juan Garcia</th>
+          <td>20</td>
+          <td>Programador</td>
+          <td>juan@mail.com</td>
+        </tr>
+        <tr>
+          <th scope="row">María Gomez</th>
+          <td>25</td>
+          <td>Desarrolladora Front-end</td>
+          <td>maria@mail.com</td>
+        </tr>
+        <tr>
+          <th scope="row">Diego Perez</th>
+          <td>24</td>
+          <td>Ingeniero de Software</td>
+          <td>diego@mail.com</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Promedio edad: &nbsp;&nbsp;&nbsp;&nbsp;23</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <table border="8" cellspacing="5" cellpadding="5">
+      <thead>
+        <tr>
+          <th>Label</th>
+          <th scope="column" colspan="3">Usage %</th>
+          <th scope="column" colspan="3">Interest %</th>
+          <th scope="column" colspan="3">Retention %</th>
+        </tr>
+        <tr>
+          <th scope="row">Year</th>
+          <th scope="column">2020</th>
+          <th scope="column">2021</th>
+          <th scope="column">2022</th>
+          <th scope="column">2020</th>
+          <th scope="column">2021</th>
+          <th scope="column">2022</th>
+          <th scope="column">2020</th>
+          <th scope="column">2021</th>
+          <th scope="column">2022</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">React</th>
+          <td>80.1</td>
+          <td>80</td>
+          <td>81.8</td>
+          <td>58.2</td>
+          <td>48.4</td>
+          <td>47.2</td>
+          <td>87.5</td>
+          <td>83.7</td>
+          <td>83</td>
+        </tr>
+        <tr>
+          <th scope="row">Vue.js</th>
+          <td>49</td>
+          <td>51.2</td>
+          <td>46.2</td>
+          <td>62.5</td>
+          <td>50</td>
+          <td>50.7</td>
+          <td>85.2</td>
+          <td>80</td>
+          <td>77.4</td>
+        </tr>
+        <tr>
+          <th scope="row">Angular</th>
+          <td>55.9</td>
+          <td>54</td>
+          <td>48.8</td>
+          <td>20.8</td>
+          <td>16.3</td>
+          <td>20.4</td>
+          <td>41.7</td>
+          <td>44.8</td>
+          <td>42.7</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+/* Propiedades CSS: */
+/* nombre-propiedad:  valor; */
+
+/* Selectores CSS: */
+/* 1. Selectores de tipo */
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: red;
+}
+
+p {
+  color: purple;
+}
+
+li {
+  font-weight: bold;
+}
+
+/* 2. Selectores de clase */
+/* kebab case */
+
+.texto-importante {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.texto-verde {
+  color: green;
+}
+
+.bloque {
+  display: block;
+}
+
+.texto-naranja {
+  color: orange;
+}
+
+/* 3. Selectores de ID */
+
+#heading-intro {
+  background-color: gray;
+}
+
+#anchor-gray {
+  text-decoration: none;
+}

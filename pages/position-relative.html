@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Propiedad CSS: position */
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      body {
+        background-color: aliceBlue;
+        font-family: sans-serif;
+      }
+
+      .container {
+        max-width: 250px;
+        padding: 4px;
+        border: 2px solid lightslategray;
+        margin: 32px auto;
+        text-align: center;
+        height: 300px;
+      }
+
+      .box {
+        height: 50px;
+        margin: 4px 0;
+        border: 2px solid peru;
+        background-color: hsl(28 87% 67% / 0.25);
+      }
+
+      .relative {
+        border-color: royalblue;
+        background-color: hsl(210 100% 56% / 0.25);
+        /* width: 50px; */
+
+        position: relative;
+        /* left: 50%; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Relative Positioning</h2>
+      <div class="box"></div>
+      <div class="box relative"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>

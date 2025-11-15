@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      /* html tambien tiene position static  */
+
+      /* static */
+      body {
+        background-color: aliceBlue;
+        font-family: sans-serif;
+      }
+
+      /* relative  */
+      .container {
+        max-width: 280px;
+        padding: 4px;
+        border: 2px solid lightslategray;
+        margin: 60px auto;
+        text-align: center;
+      }
+
+      .container h2 {
+        margin-bottom: 8px;
+      }
+
+      /* static  */
+      .boxes {
+        border: 2px solid green;
+
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .box {
+        border: 2px solid peru;
+        background-color: hsl(28 87% 67% / 0.25);
+      }
+
+      .absolute {
+        border-color: royalblue;
+        background-color: hsl(210 100% 56% / 0.25);
+
+        position: absolute;
+        /* top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px; */
+        inset: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Absolute Positioning</h2>
+      <div class="boxes">
+        <div class="box">Caja 1</div>
+        <div class="box">Caja 2</div>
+        <div class="box absolute">Caja 3</div>
+        <div class="box">Caja 4</div>
+      </div>
+    </div>
+  </body>
+</html>

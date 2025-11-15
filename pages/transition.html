@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+
+      .button {
+        border: none;
+        border-radius: 8px;
+        padding: 12px 16px;
+        background-color: Lavender;
+        font-weight: 500;
+        font-size: 1.25rem;
+
+        /* Definimos la propiedad a transicionar y el tiempo que tomará */
+        transition: transform 5000ms;
+        /* transition-delay: 1000ms; */
+      }
+
+      .button:focus {
+        /* transform: translateY(-100px); */
+        transform: rotate(1turn);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button">Hover me!</button>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+h1 {
+  background-color: gray;
+  /* Sistema RGB de colores:  */
+  color: rgb(0, 255, 0, 80%);
+  color: rgb(255, 0, 0);
+  color: rgb(0, 0, 255);
+  color: rgb(0, 255, 255); /* cyan */
+  color: rgb(255, 0, 255); /* magenta */
+  color: rgb(255, 255, 0); /* amarillo */
+  color: rgb(255, 255, 255); /* blanco */
+  color: rgb(0, 0, 0); /* negro */
+
+  /* Sistema Hexadecimal de colores: */
+  color: #00ff00;
+  color: #ff0000;
+  color: #0000ff;
+  color: #00ffff;
+  color: #ff00ff;
+  color: #ffff00;
+  color: #ffffff;
+  color: #000000ff;
+
+  /* Sistema HSL */
+  /* color: hsla(115, 100%, 49%); */
+  /* color: transparent; */
+}
+
+body {
+  color: blue; /* Define el color del texto */
+  border: 1px solid currentColor; /* El borde tendrá el mismo color que el texto */
+  background-color: transparent; /* El fondo será transparento */
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Combinadores de hermanos (generales) */
+      #cuatro ~ div {
+        color: cyan;
+        background-color: gray;
+        width: 20px;
+      }
+
+      /* Combinadores de hermano directo */
+      #dos + div {
+        color: orange;
+        background-color: purple;
+        width: 20px;
+      }
+
+      /* div:not(div#cuatro):not(#cuatro ~ div) */
+    </style>
+  </head>
+  <body>
+    <div id="">1</div>
+    <div id="dos">2</div>
+    <div id="">3</div>
+    <div id="cuatro">4</div>
+    <div id="">5</div>
+    <div id="">6</div>
+    <div id="">7</div>
+    <div id="">8</div>
+  </body>
+</html>

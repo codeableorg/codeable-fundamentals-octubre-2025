@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin-bottom: 5rem;
+      }
+
+      section {
+        margin-bottom: 48px;
+      }
+
+      .boxes {
+        display: flex;
+        gap: 32px;
+      }
+
+      .box {
+        width: 75px;
+        height: 75px;
+        background-color: DarkSeaGreen;
+        display: grid;
+        place-items: center;
+      }
+
+      .natural-pos {
+        border: 2px dashed DarkBlue;
+      }
+
+      .transform {
+        background-color: hsl(147 50% 47% / 0.9);
+      }
+
+      .translate .transform {
+        transform: translate(20px, 50px);
+        /* transform: translateX(50%); */
+        /* transform: translateY(50px); */
+      }
+
+      .scale .transform {
+        /* Activar una a la vez */
+        transform: scale(1.2);
+        /* transform: scale(1.5, 1.2); */
+        /* transform: scaleX(1.5); */
+        /* transform: scaleY(1.2); */
+      }
+
+      .rotate .transform {
+        /* Activar una a la vez */
+        transform: rotate(45deg);
+        /* transform: rotate(0.5turn); */
+
+        transform-origin: 0% 100%;
+      }
+
+      .skew .transform {
+        transform: translateX(20px);
+        /* transform: scale(1.5) translateX(20px); */
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Transform Functions</h2>
+    <!-- <section class="translate">
+      <h3>Translate</h3>
+      <div class="boxes">
+        <div class="natural-pos"><div class="box">Caja 1</div></div>
+        <div class="natural-pos"><div class="box transform">Caja 2</div></div>
+        <div class="natural-pos"><div class="box">Caja 3</div></div>
+      </div>
+    </section> -->
+    <!-- <section class="scale">
+      <h3>Scale</h3>
+      <div class="boxes">
+        <div class="natural-pos"><div class="box">Caja 1</div></div>
+        <div class="natural-pos"><div class="box transform">Caja 2</div></div>
+        <div class="natural-pos"><div class="box">Caja 3</div></div>
+      </div>
+    </section> -->
+    <!-- <section class="rotate">
+      <h3>Rotate</h3>
+      <div class="boxes">
+        <div class="natural-pos"><div class="box">Caja 1</div></div>
+        <div class="natural-pos"><div class="box transform">Caja 2</div></div>
+        <div class="natural-pos"><div class="box">Caja 3</div></div>
+      </div>
+    </section> -->
+    <section class="skew">
+      <h3>Skew</h3>
+      <div class="boxes">
+        <div class="natural-pos"><div class="box">Caja 1</div></div>
+        <div class="natural-pos"><div class="box transform">Caja 2</div></div>
+        <div class="natural-pos"><div class="box">Caja 3</div></div>
+      </div>
+    </section>
+  </body>
+</html>
