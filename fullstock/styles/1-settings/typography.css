@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Protest+Guerrilla&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+  --family-text: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --family-heading: var(--family-text);
+  --family-display: "Protest Guerrilla", "Protest Strike", "Stencil", "Impact",
+    sans-serif;
+  --family-code: "Source Code Pro", "Menlo", "Consolas", "Monaco", "Courier New",
+    monospace;
+  --family-emphasis: "Lora", "Georgia", "Palatino Linotype", "Book Antiqua",
+    "Times New Roman", serif;
+}
