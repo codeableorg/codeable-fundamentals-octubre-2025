@@ -1,0 +1,21 @@
+/* 
+.container {
+  --padding: var(--space-4);
+ 
+  padding-inline: var(--padding);
+  max-width: var(--width-7xl);
+  margin-inline: auto;
+}
+ 
+@media (min-width: 40rem) {
+  .container {
+    --padding: var(--space-6);
+  }
+}
+ 
+@media (min-width: 64rem) {
+  .container {
+    --padding: var(--space-8);
+  }
+} 
+*/

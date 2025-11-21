@@ -1,4 +1,32 @@
 :root {
+  --white: hsl(0 0% 100%);
+  --black: hsl(0 0% 0%);
+
+  /* 12 niveles accent  */
   --accent-11: hsl(242, 50%, 55%);
   --accent-12: hsl(238, 43%, 27%);
+  /* 12 niveles accent + alpha  */
+  --accent-contrast: var(--white);
+
+  /* 12 niveles neutral */
+  /* 12 niveles neutral + alpha */
+  --neutral-contrast: var(--white);
+
+  /* Tokens de color */
+  --background: var(--white);
+  --foreground: var(--neutral-12);
+  --accent-background: var(--accent-3);
+  --accent-foreground: var(--accent-11);
+  --muted-background: var(--neutral-a2);
+  --muted-foreground: var(--neutral-11);
+  --primary-background: var(--accent-9);
+  --primary-foreground: var(--accent-contrast);
+  --secondary-background: var(--neutral-3);
+  --secondary-foreground: var(--neutral-11);
+  --border: var(--neutral-7);
+  --outline: var(--blue-9);
+  --separator: var(--gray-6);
+  --primary-background-hover: var(--accent-10);
+  --secondary-background-hover: var(--neutral-4);
+  --border-hover: var(--neutral-8);
 }

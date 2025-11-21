@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--family-text);
+  font-size: var(--font-size-4);
+  line-height: var(--leading-6);
+
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--family-heading);
+}
+
+code {
+  font-family: var(--family-code);
+}
+
+em {
+  font-family: var(--family-emphasis);
+}
