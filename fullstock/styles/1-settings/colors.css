@@ -9,6 +9,8 @@
   --accent-contrast: var(--white);
 
   /* 12 niveles neutral */
+  --neutral-12: hsl(210, 13%, 13%);
+
   /* 12 niveles neutral + alpha */
   --neutral-contrast: var(--white);
 

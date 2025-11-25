@@ -1,0 +1,21 @@
+/* 1. Settings */
+@import url("1-settings/colors.css");
+@import url("1-settings/spacing.css");
+@import url("1-settings/typography.css");
+@import url("1-settings/width.css");
+
+/* 3. Generic */
+@import url("3-generic/reset.css");
+
+/* 4. Elements */
+@import url("4-elements/elements.css");
+
+/* 5. Objects */
+@import url("5-objects/objects.css");
+
+/* 6. Components */
+@import url("6-components/categories.css");
+@import url("6-components/category.css");
+
+/* 7. Utilities */
+@import url(7-utilities/utilities.css);

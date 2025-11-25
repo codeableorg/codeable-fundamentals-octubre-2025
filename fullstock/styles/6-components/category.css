@@ -1,0 +1,19 @@
+.category {
+  width: 384px;
+}
+
+.category__image {
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.category__title {
+  color: var(--foreground);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.category__description {
+}

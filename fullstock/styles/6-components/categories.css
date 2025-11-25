@@ -1,2 +1,7 @@
 .categories {
 }
+
+.categories__content {
+  display: flex;
+  gap: var(--space-8);
+}

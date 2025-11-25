@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
     <title>Document</title>
   </head>
   <body>
@@ -10,19 +11,52 @@
     <main>
       <section></section>
       <!-- BEM: Bloque, Elementos, Modificador -->
-      <section class="categories">
+      <section class="categories container">
         <div class="categories__intro">
-          <h2>Compra por categoría</h2>
-          <p>
+          <h2 class="categories__title">Compra por categoría</h2>
+          <p class="categories__description">
             Explora nuestra selección de productos especialmente diseñados para
             desarrolladores web. Encuentra lo que buscas navegando por nuestras
             categorías de polos, tazas, stickers y más.
           </p>
         </div>
         <div class="categories__content">
-          <div>Polos</div>
-          <div>Tazas</div>
-          <div>Stickers</div>
+          <div class="category">
+            <img
+              class="category__image"
+              src="/assets/images/categoria-polos.png"
+              alt="Una persona modelando un polo azul"
+            />
+            <h3 class="category__title">Polos</h3>
+            <p class="category__description">
+              Polos exclusivos con diseños que todo desarrollador querrá lucir.
+              Ideales para llevar el código a donde vayas.
+            </p>
+          </div>
+          <div class="category">
+            <img
+              class="category__image"
+              src="/assets/images/categoria-tazas.png"
+              alt="Una persona modelando un polo azul"
+            />
+            <h3 class="category__title">Tazas</h3>
+            <p class="category__description">
+              Tazas que combinan perfectamente con tu café matutino y tu pasión
+              por la programación. ¡Empieza el día con estilo!
+            </p>
+          </div>
+          <div class="category">
+            <img
+              class="category__image"
+              src="/assets/images/categoria-stickers.png"
+              alt="Una persona modelando un polo azul"
+            />
+            <h3 class="category__title">Stickers</h3>
+            <p class="category__description">
+              Personaliza tu espacio de trabajo con nuestros stickers únicos y
+              muestra tu amor por el desarrollo web.
+            </p>
+          </div>
         </div>
       </section>
       <section></section>
